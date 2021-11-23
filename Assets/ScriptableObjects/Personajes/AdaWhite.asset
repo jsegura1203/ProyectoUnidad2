@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57125fa00760ac141b085459de87c0b1, type: 3}
+  m_Name: AdaWhite
+  m_EditorClassIdentifier: 
+  dialogo:
+  - "Ada: Alissa, \xBFrecuerdas de lo que te hable hace 3 meses?"
+  - "Ada: El tesoro de Ermentraut, el que fue robado y causo da\xF1o a media Europa"
+  - 'Ada: Dime todo lo que sepas ahora mismo'
+  - 'Ada: El reino... bien, gracias Alissa, ire para alla.'
+  dialogo2:
+  - "Ada: Asi es, Draver, supe lo que hiciste a toda Europa, y tu pasando c\xF3mo
+    un noble en este reino"
+  - 'Ada: Pero es hora de que pagues...'
+  - 'Ada: Yo y mi arco... Tu y yo, ahora mismo, gana el que tenga mejor rapidez'
+  - "Ada: Te ganare ladr\xF3n!"

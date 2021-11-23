@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Escenas transitivas/Principal.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/House on night.unity
+    guid: 9aea0b041e61f9f449df1339b0ff7e03
+  - enabled: 1
+    path: Assets/Scenes/Escenas transitivas/Casa_Aldea.unity
+    guid: eda589d3b4a62ba47b9db69075f6606c
+  - enabled: 1
+    path: Assets/Scenes/Sally Share.unity
+    guid: 005c1c9f9271a964d975036c4a10b6a5
+  - enabled: 1
+    path: Assets/Scenes/Escenas transitivas/Aldea_Reino.unity
+    guid: 33f85c27225cc5640ab558a7829f8784
+  - enabled: 1
+    path: Assets/Scenes/Castle Castilla.unity
+    guid: 4b1d27f22d442964f88bc68fbd2fd3a0
+  - enabled: 1
+    path: Assets/Scenes/Escenas transitivas/Reino_Batalla.unity
+    guid: daf49934ec1611b4ca9da255f73c0add
+  - enabled: 1
+    path: Assets/Scenes/Batalla Final.unity
+    guid: 817839b957394a142bcb87e193746958
+  - enabled: 1
+    path: Assets/Scenes/Escenas transitivas/Final.unity
+    guid: 9ad8372a2d558dc41ad1108c6795e2fd
+  m_configObjects: {}

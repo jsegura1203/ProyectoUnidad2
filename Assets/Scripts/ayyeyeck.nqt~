@@ -1,0 +1,59 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PlayerMove : MonoBehaviour
+{
+    public float speed = 10.0F; //Velocidad de movimiento
+    public float rotationSpeed = 100.0F; //Velocidad de rotación
+
+    public Animator anim;
+    private float x, y;
+
+    public Rigidbody rb;
+    public float FS = 8f;
+    public bool PS;
+
+
+    void Star()
+    {
+        PS = false;
+        anim = GetComponent<Animator>();
+    }
+
+    void FixedUpdate()
+    {
+        transform.Rotate(0, x * rotationSpeed * Time.deltaTime, 0);
+        transform.Translate(0, 0, y * speed * Time.deltaTime);
+        
+    }
+
+    void Update()
+    {
+        x = Input.GetAxis("Horizontal");
+        y = Input.GetAxis("Vertical");
+
+        animator.SetFloat("VelX", x);
+        animator.SetFloat("VelY", y);
+
+        if (PS)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                animator.SetBool("Jumped", true);
+                rb.AddForce(new Vector3(0, FS, 0), ForceMode.Impulse);
+            }
+            animator - SetBool("PlaneTouch", true);
+        }
+        else
+        {
+            FallingDown();
+        }
+    }
+
+    public void FallingDown()
+    {
+        animator.SetBool("PlaneTouch", false);
+        animator.SetBool("Jumped", false);
+    }
+}
